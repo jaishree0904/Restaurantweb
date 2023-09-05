@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name</title>
+    <style>
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-decoration-color:red;
+    
+}
+
+/* Header styles */
+header {
+    background-color:#adbff3;
+    color: #131111;
+     text-align:center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #161010;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+#hero {
+    background-image: url('res.jpg') linear-gradient(rgba (0,0,0,0.5)));
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #323a52;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Menu styles */
+.menu-item {
+    background-color:#adbff3;
+    border: 1px solid #1a1818;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 80%;
+    height: 100;
+    
+}
+
+.price {
+    font-weight: bold;
+    color: #17191b;
+}
+
+/* About and Contact styles (add more styles as needed) */
+#about, #contact {
+    background-color: #adbff3;
+    padding: 40px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #0f0f0f;
+    text-align: center;
+    padding: 20px 0;
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 style ="text-decoration-color: #333;">Elite Restaurant</h1>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2 style="text-decoration-color: #0f0f0f;">Elite Restaurant</h2>
+            <p>Discover South Indian Flavours</p>
+            <a href="#menu" class="cta-button">View Menu</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <img src="image2.jpg" alt="Food Item1" width="300">
+                <h3>Breakfast</h3>
+                <p>Idly|Dosa|Special Masala Dosa|Pongal|Vada</p>
+                <span class="price">Idly=20</span><br>
+                <span class="price">Dosa=30</span><br>
+                <span class="price">Special Masala Dosa=60</span><br>
+                <span class="price">Pongal=30</span><br>
+                <span class="price">Vada=10</span><br>
+            </div>
+            <div class="menu-item">
+                <img src="lunch.webp" alt="Food Item 2" width="300">
+                <h3>Lunch</h3>
+                <p>Meals|Mini Meals|Punjabi Thali|Andhra Thali</p>
+                <span class="price">Meals=70</span><br>
+                <span class="price">Mini Meals=50</span><br>
+                <span class="price">Andhra Thali=80</span><br>
+                <span class="price">Punjabi Thali=90</span>
+            </div>
+            <div class="menu-item">
+                <img src="dinner.webp" alt="Food Item 2" width="300">
+                <h3>Dinner</h3>
+                <p>Parotta|chappathi</p>
+                <span class="price">Parotta=35</span><br>
+                <span class="price">Chappathi=30</span><br>
+                
+            </div>
+            <!-- Add more menu items as needed -->
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a passionate team dedicated to providing you with an unforgettable dining experience.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to make a reservation, please contact us:</p>
+            <address>
+                <p>Email: <a href="eliterestaurant@gmail.com">eliterestaurant@gmail.com</a></p>
+                <p>Phone: <a href="tel:8672342271">8672342271</a></p>
+            </address>
+        </div>
+    </section>
+   
+
+    <footer>
+        <div class="container">
+            <p>&copy; elite restaurant</p>
+        </div>
+    </footer>
+</body>
+</html>
